@@ -18,7 +18,7 @@ template = """<!DOCTYPE html>
     <div class="topbar position-relative z-3">
         <div class="container d-flex justify-content-between align-items-center py-2">
             <div class="contact-info text-white">
-                <span class="me-4"><i class="fas fa-phone-alt me-2"></i>+0123 456 789</span>
+                <span class="me-4"><i class="fas fa-phone-alt me-2"></i>+1 886 685 3131</span>
             </div>
             <div class="social-icons">
                 <span class="text-white"><i class="fas fa-envelope me-2 text-white"></i>info@insurancepackagesnetwork.online</span>
@@ -118,7 +118,7 @@ template = """<!DOCTYPE html>
                            <p class="text-white opacity-75 small mb-4 px-2 position-relative z-1 lh-lg">Reach out to our experts for a customized quote tailored perfectly to your immediate needs.</p>
                            <a href="#" class="btn btn-white text-primary fw-bold rounded-pill w-100 py-3 mb-4 position-relative z-1 shadow custom-hover-lift">Get a Quote</a>
                            <div class="position-relative z-1 mb-2">
-                               <span class="fw-bold text-white fs-5"><i class="fas fa-phone-alt me-2"></i>+0123 456 789</span>
+                               <span class="fw-bold text-white fs-5"><i class="fas fa-phone-alt me-2"></i>+1 886 685 3131</span>
                            </div>
                        </div>
                    </div>
