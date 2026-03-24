@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZORVIXA Insurance Agency</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Topbar -->
+    <div class="topbar position-relative z-3">
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div class="contact-info text-white">
+                <span class="me-4"><i class="fas fa-phone-alt me-2"></i>+0123 456 789</span>
+                
+            </div>
+            <div class="social-icons">
+                <span class="text-white"><i class="fas fa-envelope me-2 text-white"></i>info@domain.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top py-3 shadow-sm z-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- Logo Icon -->
+                <div class="logo-icon me-2 position-relative">
+                    <img src="https://api.iconify.design/fluent:people-community-24-filled.svg?color=%23002b61"
+                        width="45" height="45" alt="Logo">
+                </div>
+                <div>
+                    <span class="fw-bold fs-4 d-block lh-1 text-dark">ZORVIXA</span>
+                    <span class="fs-6 logo-subtitle">Insurance Agency</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto fw-medium">
+                    <li class="nav-item px-2"><a class="nav-link text-dark fw-semibold" href="#">Home</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-secondary" href="#">About us</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-secondary" href="#">Services</a></li>
+                    <li class="nav-item px-2 dropdown">
+                        <a class="nav-link dropdown-toggle text-secondary" href="#" role="button"
+                            data-bs-toggle="dropdown">Pages</a>
+                    </li>
+                    <li class="nav-item px-2"><a class="nav-link text-secondary" href="#">Our Team</a></li>
+                </ul>
+                <a href="#" class="btn btn-primary btn-custom px-4 py-2 fw-medium">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section position-relative">
+        <div class="hero-overlay position-absolute top-0 start-0 w-100 h-100 z-1"></div>
+        <div class="hero-bg position-absolute top-0 start-0 w-100 h-100 z-0"
+            style="background-image: url('https://images.unsplash.com/photo-1556761175-5973dc0f32d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80'); background-size: cover; background-position: center;">
+        </div>
+
+        <div class="container h-100 d-flex align-items-center position-relative z-2">
+            <div class="row w-100">
+                <div class="col-lg-7 text-white py-5">
+                    <span class="badge badge-custom px-4 py-2 mb-4 rounded-pill fw-medium fs-6">Health Insurance</span>
+                    <h1 class="display-3 fw-bold mb-4">You are Ready to<br>Get Your Insurance</h1>
+                    <p class="fs-5 mb-5 opacity-90 pe-lg-5 lh-base">Get peace of mind with our comprehensive insurance
+                        coverage tailored to your needs. From home and auto to life and health, we've got you covered.
+                        Explore our range of policies and find the perfect fit for your family's security.</p>
+                    <a href="#" class="btn btn-primary btn-custom btn-lg px-5 py-3 fw-medium">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Feature Cards Section -->
+    <section class="features-section position-relative z-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 p-4 d-flex flex-row align-items-center">
+                        <div class="icon-box rounded me-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold mb-2">Peace of Mind</h4>
+                            <p class="text-secondary mb-0 small">Phasellus fermentum congue arcu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 p-4 d-flex flex-row align-items-center">
+                        <div class="icon-box rounded me-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-umbrella"></i>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold mb-2">Tailored Cover</h4>
+                            <p class="text-secondary mb-0 small">Phasellus fermentum congue arcu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card feature-card h-100 p-4 d-flex flex-row align-items-center">
+                        <div class="icon-box rounded me-3 d-flex align-items-center justify-content-center">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold mb-2">24/7 Support</h4>
+                            <p class="text-secondary mb-0 small">Phasellus fermentum congue arcu.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- About Section -->
+    <section class="about-section py-5 my-5 position-relative z-1">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <!-- Image Column -->
+                <div class="col-lg-6 mb-5 mb-lg-0 pe-lg-5">
+                    <div class="about-img-wrapper position-relative">
+                        <!-- Decorative Shapes -->
+                        <div class="shape-circle position-absolute z-3"></div>
+                        <div class="shape-rectangle position-absolute z-0"></div>
+                        <!-- Main Image -->
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Family Insurance"
+                            class="img-fluid rounded-4 position-relative z-2 shadow w-100 object-fit-cover"
+                            style="height: 500px;">
+                    </div>
+                </div>
+                <!-- Content Column -->
+                <div class="col-lg-6 ps-lg-4">
+                    <span class="badge badge-custom px-4 py-2 mb-4 rounded-pill fw-medium fs-6">About Zorvixa</span>
+                    <h2 class="display-5 fw-bold mb-4 text-dark lh-sm" style="letter-spacing: -1px;">Reliable Insurance
+                        For<br>Any Purpose</h2>
+                    <p class="text-secondary mb-5 fs-6 lh-lg pe-lg-4">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500s.</p>
+
+                    <div class="row mb-5 g-4">
+                        <div class="col-sm-6 d-flex align-items-center">
+                            <div class="about-icon me-3 text-primary">
+                                <img src="https://api.iconify.design/ph:umbrella-light.svg?color=%23002b61" width="50"
+                                    height="50" alt="Secure Services">
+                            </div>
+                            <h5 class="fw-bold mb-0 fs-6 lh-base text-dark">100 Secure<br>Services</h5>
+                        </div>
+                        <div class="col-sm-6 d-flex align-items-center position-relative">
+                            <!-- vertical line separator -->
+                            <div class="d-none d-sm-block position-absolute bg-light"
+                                style="width: 2px; height: 100%; left: -15px; top: 0;"></div>
+                            <div class="about-icon me-3 text-primary">
+                                <img src="https://api.iconify.design/ph:hand-coins-light.svg?color=%23002b61" width="50"
+                                    height="50" alt="Money Back">
+                            </div>
+                            <h5 class="fw-bold mb-0 fs-6 lh-base text-dark">Anytime Money<br>Back</h5>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center flex-wrap mt-2">
+                        <a href="#" class="btn btn-primary btn-custom px-4 py-3 fw-medium me-4 mb-3 mb-sm-0">Read
+                            More</a>
+                        <div class="contact-agent d-flex align-items-center mb-3 mb-sm-0 px-2">
+                            <div class="agent-avatar position-relative me-3">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+                                    alt="Agent" class="rounded-circle object-fit-cover" width="50" height="50">
+                                <span
+                                    class="position-absolute bottom-0 end-0 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center border border-white border-2"
+                                    style="width: 22px; height: 22px; font-size: 10px; transform: translate(20%, 20%);">
+                                    <i class="fas fa-phone-alt"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h6 class="fw-bold text-dark mb-0 fs-6">Contact Us: <span class="fw-normal">+0123 456
+                                        789</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agency Custom CTA Section -->
+    <section class="agency-cta py-5 position-relative z-1 overflow-hidden" style="background: linear-gradient(135deg, #031b4e 0%, #000c24 100%);">
+        <!-- Abstract Shapes -->
+        <div class="position-absolute top-0 end-0 opacity-25" style="width: 500px; height: 500px; background: radial-gradient(circle, var(--primary-color) 0%, transparent 70%); transform: translate(30%, -30%);"></div>
+        <div class="position-absolute bottom-0 start-0 opacity-25" style="width: 400px; height: 400px; background: radial-gradient(circle, var(--primary-color) 0%, transparent 70%); transform: translate(-30%, 30%);"></div>
+        
+        <div class="container py-lg-5 position-relative z-1">
+            <div class="row align-items-center justify-content-between g-5">
+                <!-- Left Text Column -->
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="badge bg-white text-dark px-4 py-2 rounded-pill fw-bold mb-4 fs-6 shadow-sm">
+                        <i class="fas fa-shield-alt text-primary me-2"></i>Secure Your Future
+                    </span>
+                    <h2 class="display-4 fw-bold text-white mb-4 lh-sm" style="letter-spacing: -1px;">Don't leave your family's<br>security to chance.</h2>
+                    <p class="fs-5 text-white opacity-75 mb-0 lh-lg" style="max-width: 600px; margin: 0 auto;">Our expert agents are standing by to craft the perfect insurance policy tailored to your unique needs and budget. Get protected today.</p>
+                </div>
+                
+                <!-- Right Action Card -->
+                <div class="col-lg-5">
+                    <div class="bg-white bg-opacity-10 p-4 p-md-5 rounded-4 border border-white border-opacity-10 backdrop-blur shadow-lg position-relative overflow-hidden">
+                        <!-- Glass shine effect -->
+                        <div class="position-absolute top-0 start-0 w-100 h-100 bg-white opacity-10" style="clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%);"></div>
+                        
+                        <div class="position-relative z-1">
+                            <h4 class="fw-bold text-white mb-4 text-center text-lg-start">Start your free quote</h4>
+                            <div class="d-grid gap-3">
+                                <a href="#" class="btn btn-primary btn-lg rounded-pill fw-bold py-3 shadow-sm hover-lift">
+                                    Get a Quote Now <i class="fas fa-arrow-right ms-2"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-light btn-lg rounded-pill fw-bold py-3 hover-lift">
+                                    <i class="fas fa-phone-alt me-2"></i> Call +0123 456 789
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-center justify-content-lg-between align-items-center mt-4 gap-3 flex-wrap text-white opacity-75 small fw-medium">
+                                <span><i class="fas fa-check-circle text-primary me-1"></i> No hidden fees</span>
+                                <span><i class="fas fa-check-circle text-primary me-1"></i> Cancel anytime</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USP / Comprehensive Coverage Section -->
+    <section class="usp-section py-5 bg-light position-relative">
+        <div class="container py-5">
+            <div class="text-center mb-5 pb-3">
+                <span class="badge bg-white text-primary px-4 py-2 mb-3 rounded-pill fw-bold border border-primary border-opacity-25 shadow-sm">What We Protect</span>
+                <h2 class="display-5 fw-bold text-dark mb-4" style="letter-spacing: -1px;">Comprehensive Insurance<br>For Every Need</h2>
+                <p class="text-secondary mx-auto" style="max-width: 650px; line-height: 1.8;">Our Unique Selling Proposition is simple: We provide meticulously tailored coverage for exactly what you need. Explore our specialized insurance packages designed for your total peace of mind.</p>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Home -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-home fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Home Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Protect your largest asset from unexpected damage, theft, and liability with our comprehensive and affordable home coverage plans.</p>
+                    </div>
+                </div>
+                <!-- Tenant -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-building fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Tenant Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Don't leave your personal belongings exposed. Secure your lifestyle with coverage that protects renters against theft and accidents.</p>
+                    </div>
+                </div>
+                <!-- Vehicle -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-car fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Vehicle Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Drive with complete confidence knowing you have premium collision, comprehensive, liability, and guaranteed roadside assistance.</p>
+                    </div>
+                </div>
+                <!-- Property -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-city fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Property Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Expert coverage for your investment properties, secondary homes, and specialized real estate portfolios against all major risks.</p>
+                    </div>
+                </div>
+                <!-- Business -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-briefcase fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Business Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Complete risk mitigation for your enterprise, including general liability, commercial property, and comprehensive worker compensation.</p>
+                    </div>
+                </div>
+                <!-- Travel -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card usp-card border-0 text-center p-4 p-xl-5 h-100 rounded-4 shadow-sm hover-lift">
+                        <div class="usp-icon-wrapper mx-auto mb-4 bg-primary bg-opacity-10 text-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 80px; height: 80px;">
+                            <i class="fas fa-plane fa-2x"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3 text-dark">Travel Insurance</h4>
+                        <p class="text-secondary small mb-0 lh-lg">Premium medical and trip cancellation coverage everywhere you go, so you can explore the world without any lingering worries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Excellence Section -->
+    <section class="excellence-section py-5 my-5 position-relative z-1">
+        <div class="container py-4">
+            <div class="row align-items-center">
+                <!-- Images Column -->
+                <div
+                    class="col-lg-6 mb-5 mb-lg-0 pe-lg-5 position-relative d-flex justify-content-center justify-content-lg-start">
+                    <!-- Setup image group container -->
+                    <div class="position-relative" style="width: 450px; max-width: 100%;">
+                        <!-- Dot Pattern Background -->
+                        <div class="dot-pattern position-absolute z-0"
+                            style="left: -30px; top: 50%; height: 200px; width: 200px; transform: translateY(-50%);">
+                        </div>
+
+                        <!-- Main Image -->
+                        <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Consultation" class="excellence-img-main position-relative z-1 shadow-lg">
+
+                        <!-- Overlapping Wedge -->
+                        <div class="excellence-wedge-wrapper z-2">
+                            <div class="excellence-wedge-inner">
+                                <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                    alt="Family" class="excellence-wedge-img">
+                            </div>
+                        </div>
+
+                        <!-- Accent Blob -->
+                        <div class="excellence-accent-blob z-3"></div>
+                    </div>
+                </div>
+
+                <!-- Content Column -->
+                <div class="col-lg-6 ps-lg-5 mt-5 mt-lg-0">
+                    <span
+                        class="badge badge-custom px-4 py-2 mb-4 rounded-pill fw-medium fs-6 text-white text-bg-primary">Get
+                        Consultations</span>
+                    <h2 class="display-5 fw-bold mb-4 text-dark lh-sm" style="letter-spacing: -1px;">5 Years of
+                        Excellence in<br>The Insurance Industry.</h2>
+                    <p class="text-secondary mb-5 fs-6 lh-lg pe-lg-4">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                        1500.</p>
+
+                    <div class="excellence-list mb-5">
+                        <div class="d-flex align-items-center mb-3 pb-3 border-bottom">
+                            <span class="fs-4 fw-bold text-secondary opacity-50 me-3">01.</span>
+                            <h5 class="fw-bold mb-0 text-dark">Can Save Your Money.</h5>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <span class="fs-4 fw-bold text-secondary opacity-50 me-3">02.</span>
+                            <h5 class="fw-bold mb-0 text-dark">Our Life Insurance Is Flexible</h5>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-primary btn-custom btn-lg px-4 py-3 fw-medium">Contact Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Process Section -->
+    <section class="process-section py-5 mt-4" style="background-color: #080d1f; color: white;">
+        <div class="container py-lg-5">
+            <!-- Header -->
+            <div class="row align-items-end mb-5 pb-3">
+                <div class="col-md-7 col-lg-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="rounded-circle bg-primary me-2 shadow-sm" style="width: 12px; height: 12px;"></span>
+                        <span class="text-uppercase text-white opacity-75 small fw-bold" style="letter-spacing: 1px;">4 Simple Steps</span>
+                    </div>
+                    <h2 class="display-5 fw-bold text-white mb-0" style="letter-spacing: -1px; line-height: 1.2;">Seamless Process,<br>Total Peace of Mind</h2>
+                </div>
+                <div class="col-md-5 col-lg-6 d-none d-md-block pb-3">
+                    <div class="w-100" style="height: 1px; background-color: rgba(255,255,255,0.2);"></div>
+                </div>
+            </div>
+
+            <!-- Process Cards -->
+            <div class="row g-4 mb-5 pb-lg-3">
+                <!-- Step 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-card h-100 p-4 p-xl-5 d-flex flex-column rounded-4" style="background-color: #12192e; min-height: 350px;">
+                        <h3 class="fw-bold mb-4" style="color: #cbd5e1;">01.</h3>
+                        <h4 class="fw-bold text-white mb-4 lh-base fs-4">Request a<br>Quote</h4>
+                        <p class="text-white opacity-75 small lh-lg mt-auto mb-0">Provide basic details about your needs to get an accurate, personalized insurance quote in minutes.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-card h-100 p-4 p-xl-5 d-flex flex-column rounded-4" style="background-color: #12192e; min-height: 350px;">
+                        <h3 class="fw-bold mb-4" style="color: #cbd5e1;">02.</h3>
+                        <h4 class="fw-bold text-white mb-4 lh-base fs-4">Compare<br>Options</h4>
+                        <p class="text-white opacity-75 small lh-lg mt-auto mb-0">Review tailored coverage plans. We help compare rates and benefits to find your perfect match.</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-card h-100 p-4 p-xl-5 d-flex flex-column rounded-4" style="background-color: #12192e; min-height: 350px;">
+                        <h3 class="fw-bold mb-4" style="color: #cbd5e1;">03.</h3>
+                        <h4 class="fw-bold text-white mb-4 lh-base fs-4">Customize<br>Policy</h4>
+                        <p class="text-white opacity-75 small lh-lg mt-auto mb-0">Adjust deductibles, add specific riders, and fine-tune your policy until it fits your exact budget.</p>
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-card h-100 p-4 p-xl-5 d-flex flex-column rounded-4" style="background-color: #12192e; min-height: 350px;">
+                        <h3 class="fw-bold mb-4" style="color: #cbd5e1;">04.</h3>
+                        <h4 class="fw-bold text-white mb-4 lh-base fs-4">Get<br>Protected</h4>
+                        <p class="text-white opacity-75 small lh-lg mt-auto mb-0">Sign securely online and receive your digital proof of insurance immediately. Your peace of mind starts now.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Pill -->
+            <div class="process-footer p-3 ps-sm-4 d-flex flex-column flex-sm-row align-items-center justify-content-between shadow-lg" style="background-color: #161e36;">
+                <div class="d-flex align-items-center mb-4 mb-sm-0 flex-wrap justify-content-center">
+                    <div class="avatar-stack d-flex me-3 ms-2 mb-2 mb-sm-0">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Customer" class="rounded-circle border border-2 object-fit-cover" style="width: 45px; height: 45px; border-color: #161e36 !important; position: relative; z-index: 4;">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Customer" class="rounded-circle border border-2 object-fit-cover" style="width: 45px; height: 45px; border-color: #161e36 !important; position: relative; z-index: 3; margin-left: -15px;">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Customer" class="rounded-circle border border-2 object-fit-cover" style="width: 45px; height: 45px; border-color: #161e36 !important; position: relative; z-index: 2; margin-left: -15px;">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Customer" class="rounded-circle border border-2 object-fit-cover" style="width: 45px; height: 45px; border-color: #161e36 !important; position: relative; z-index: 1; margin-left: -15px;">
+                    </div>
+                    <span class="text-white fw-medium m-0 fs-6">Align with Families that Choose Security</span>
+                </div>
+                <a href="#" class="btn btn-white bg-white text-dark rounded-pill fw-bold px-3 py-2 d-inline-flex align-items-center process-btn shadow-sm" style="white-space: nowrap;">
+                    <span class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-2" style="width: 32px; height: 32px;">
+                        <i class="fas fa-arrow-right small"></i>
+                    </span> 
+                    Start Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compound Section: Why Choose Us & Testimonials -->
+    <div class="why-choose-testimonials bg-white">
+        
+        <!-- Why Choose Us Re-designed -->
+        <section class="why-choose-section py-5 bg-white">
+            <div class="container py-lg-5">
+                <div class="mb-5 text-center text-md-start">
+                    <h2 class="display-5 fw-bold text-dark" style="letter-spacing: -1px;">Why <span class="text-primary">Zorvixa</span> is The Right Choice for You</h2>
+                </div>
+                
+                <div class="row g-4">
+                    <!-- Left Side (Grid) -->
+                    <div class="col-lg-8">
+                        <div class="row g-4 h-100">
+                            <!-- Card 1 -->
+                            <div class="col-md-6">
+                                <div class="card h-100 border-0 rounded-4 feature-card-light p-4 p-lg-5">
+                                    <div class="icon-outline mb-4">
+                                        <i class="fas fa-user-tie"></i>
+                                    </div>
+                                    <h4 class="fw-bold mb-3 text-dark">Expert Instructors</h4>
+                                    <p class="text-secondary mb-0 lh-lg small">Learn from top industry professionals who bring years of real-world experience to the classroom, providing you with the latest tools, techniques, and insights needed to excel in your field.</p>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-md-6">
+                                <div class="card h-100 border-0 rounded-4 feature-card-light p-4 p-lg-5">
+                                    <div class="icon-outline mb-4">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <h4 class="fw-bold mb-3 text-dark">Career-Boost Certify</h4>
+                                    <p class="text-secondary mb-0 lh-lg small">Earn certifications that are highly regarded by employers, helping you to enhance your resume, gain industry recognition, and open doors to new career opportunities.</p>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-12">
+                                <div class="card h-100 border-0 rounded-4 feature-card-light p-4 p-lg-5">
+                                    <div class="icon-outline mb-4">
+                                        <i class="fas fa-bullseye"></i>
+                                    </div>
+                                    <h4 class="fw-bold mb-3 text-dark">100+ High Impact Courses</h4>
+                                    <p class="text-secondary mb-0 lh-lg small">Zorvixa offers over 100 courses that cover essential skills in today's tech industry. Whether you're a beginner or an experienced professional, our courses in web development, data science, and cybersecurity provide practical, hands-on learning to help you apply your skills immediately & competitive.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side (Tall Card) -->
+                    <div class="col-lg-4">
+                        <div class="card h-100 border-0 rounded-4 feature-card-dark p-4 p-lg-5 text-white">
+                            <div class="icon-outline icon-outline-light mb-4">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h3 class="fw-bold mb-4 lh-base text-white">Flexible Learning<br>Schedules</h3>
+                            
+                            <p class="text-white opacity-75 mb-4 lh-lg" style="font-size: 0.95rem;">At Zorvixa, we understand the importance of balancing learning with a busy lifestyle. That's why our courses are available on-demand, allowing you to learn at your own pace, anytime and anywhere.</p>
+                            
+                            <p class="text-white opacity-75 mb-5 lh-lg" style="font-size: 0.95rem;">Whether you're a working professional or a student, you can customize your schedule to fit your needs.</p>
+                            
+                            <div class="mt-auto pt-4">
+                                <a href="#" class="btn btn-bright-green fw-bold rounded-pill px-4 py-3 d-inline-flex align-items-center">
+                                    Start Free Trial <i class="fas fa-arrow-right ms-2 fw-normal"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section py-5 position-relative bg-primary">
+            <div class="position-absolute top-0 start-0 w-100 h-100 z-0 bg-pattern-blue"></div>
+            
+            <div class="container position-relative z-1 py-5">
+                <div class="text-center mb-5 pb-2">
+                    <span
+                        class="badge bg-white text-primary px-4 py-2 mb-3 rounded-pill fw-medium fs-6 shadow-sm">Testimonials</span>
+                    <h2 class="display-5 fw-bold text-white mb-4">Why Client trust Us</h2>
+                </div>
+
+                <div class="row g-4 mb-5">
+                    <!-- Testimonial 1 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card testimonial-card border-0 h-100 rounded-3 text-center p-4">
+                            <div class="mb-4 mt-2">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+                                    alt="Alison" class="rounded-circle object-fit-cover shadow-sm testimonial-avatar">
+                            </div>
+                            <h5 class="fw-bold mb-3 text-dark">Alison Miller</h5>
+                            <p class="text-secondary small mb-4 lh-base">Phasellus massa felis, malesuada ac egestas
+                                nec, bibendum ut diam. In tellus augue, imperdiet eu porttitor sed, eleifend a felis.
+                            </p>
+                            <div class="text-warning small mt-auto pb-2">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card testimonial-card border-0 h-100 rounded-3 text-center p-4">
+                            <div class="mb-4 mt-2">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+                                    alt="Michelle" class="rounded-circle object-fit-cover shadow-sm testimonial-avatar">
+                            </div>
+                            <h5 class="fw-bold mb-3 text-dark">Michelle Johnson</h5>
+                            <p class="text-secondary small mb-4 lh-base">Phasellus massa felis, malesuada ac egestas
+                                nec, bibendum ut diam. In tellus augue, imperdiet eu porttitor sed, eleifend a felis.
+                            </p>
+                            <div class="text-warning small mt-auto pb-2">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card testimonial-card border-0 h-100 rounded-3 text-center p-4">
+                            <div class="mb-4 mt-2">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+                                    alt="Noah" class="rounded-circle object-fit-cover shadow-sm testimonial-avatar">
+                            </div>
+                            <h5 class="fw-bold mb-3 text-dark">Noah Davis</h5>
+                            <p class="text-secondary small mb-4 lh-base">Phasellus massa felis, malesuada ac egestas
+                                nec, bibendum ut diam. In tellus augue, imperdiet eu porttitor sed, eleifend a felis.
+                            </p>
+                            <div class="text-warning small mt-auto pb-2">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card testimonial-card border-0 h-100 rounded-3 text-center p-4">
+                            <div class="mb-4 mt-2">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+                                    alt="Mason" class="rounded-circle object-fit-cover shadow-sm testimonial-avatar">
+                            </div>
+                            <h5 class="fw-bold mb-3 text-dark">Mason Smith</h5>
+                            <p class="text-secondary small mb-4 lh-base">Phasellus massa felis, malesuada ac egestas
+                                nec, bibendum ut diam. In tellus augue, imperdiet eu porttitor sed, eleifend a felis.
+                            </p>
+                            <div class="text-warning small mt-auto pb-2">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination Dots -->
+                <div class="d-flex justify-content-center align-items-center mt-2 pb-2">
+                    <span class="rounded-circle bg-white shadow-sm mx-2" style="width: 10px; height: 10px;"></span>
+                    <span class="rounded-circle bg-white opacity-50 mx-2" style="width: 8px; height: 8px;"></span>
+                    <span class="rounded-circle bg-white opacity-50 mx-2" style="width: 8px; height: 8px;"></span>
+                    <span class="rounded-circle bg-white opacity-50 mx-2" style="width: 8px; height: 8px;"></span>
+                    <span class="rounded-circle bg-white opacity-50 mx-2" style="width: 8px; height: 8px;"></span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5 position-relative overflow-hidden bg-white mt-4">
+        <!-- Floating Background Elements -->
+        <div class="floating-elements position-absolute top-0 start-0 w-100 h-100 z-0 opacity-75">
+            <!-- Avatars -->
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar" style="width: 55px; height: 55px; top: 20%; left: 8%; animation-delay: 0s;">
+            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar" style="width: 65px; height: 65px; top: 55%; left: 15%; animation-delay: 1s;">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar d-none d-md-block" style="width: 45px; height: 45px; top: 80%; left: 25%; animation-delay: 2s;">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar" style="width: 50px; height: 50px; top: 15%; right: 15%; animation-delay: 1.5s;">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar" style="width: 60px; height: 60px; top: 65%; right: 10%; animation-delay: 0.5s;">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar d-none d-md-block" style="width: 55px; height: 55px; top: 85%; right: 28%; animation-delay: 2.5s;">
+            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Avatar" class="position-absolute rounded-circle shadow-sm float-avatar d-none d-lg-block" style="width: 45px; height: 45px; top: 35%; left: 25%; animation-delay: 0.8s;">
+            
+            <!-- Colored Dots -->
+            <span class="position-absolute rounded-circle float-dot" style="width: 30px; height: 30px; background-color: #ff8c42; top: 45%; left: 8%; animation-delay: 1.2s;"></span>
+            <span class="position-absolute rounded-circle float-dot" style="width: 40px; height: 40px; background-color: var(--primary-color); top: 30%; right: 22%; animation-delay: 0.3s;"></span>
+        </div>
+
+        <div class="container position-relative z-1 py-5 text-center" style="max-width: 850px;">
+            <h6 class="text-primary fw-bold text-uppercase mb-3" style="letter-spacing: 1px; font-size: 0.85rem;">You're in good company</h6>
+            <h2 class="display-6 fw-bold text-dark mb-5 lh-sm px-md-4" style="letter-spacing: -0.5px;">Join over 3,000,000 customers who received home insurance quotes from us</h2>
+            
+            <div class="input-group input-group-lg mb-4 shadow-sm mx-auto cta-input-group" style="max-width: 650px;">
+                <input type="text" class="form-control border-light bg-light px-4 fs-6" placeholder="Enter your home address" aria-label="Home address">
+                <button class="btn btn-primary fw-bold text-uppercase px-4 px-md-5 fs-6 d-flex align-items-center justify-content-center" type="button">
+                    <i class="fas fa-home me-2"></i> Get a quote
+                </button>
+            </div>
+            
+            <p class="mb-3 fw-medium text-secondary">Find out how affordable personalized home insurance can be in 5 minutes with an online quote.</p>
+            <p class="small text-secondary mb-5 pb-4">Before you start, please review our <a href="#" class="text-primary text-decoration-none fw-medium">Privacy Policy</a> and <a href="#" class="text-primary text-decoration-none fw-medium">Terms of Use</a>.</p>
+            
+            <div class="mt-5 pt-3">
+                <p class="small text-dark fw-bold mb-0">Canadian-owned and operated. Serving British Columbia, Alberta, Saskatchewan, Manitoba, Ontario and Quebec.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
