@@ -1,4 +1,4 @@
-/* Custom Styles for ZORVIXA Insurance Agency */
+/* Custom Styles for Insurance Package Network */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -97,8 +97,8 @@ body {
     box-shadow: 0 15px 35px rgba(0,132,255,0.15);
 }
 .icon-box {
-    width: 75px;
-    height: 75px;
+    width: 40px;
+    height: 40px;
     background-color: rgba(0, 132, 255, 0.1);
     color: var(--primary-color);
     font-size: 2rem;

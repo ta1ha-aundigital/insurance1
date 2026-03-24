@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Insurance Package Network</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="assets/images/img_001.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-effect {
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.75);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .bento-hover { transition: transform 0.4s ease, box-shadow 0.4s ease; }
+        .bento-hover:hover { transform: translateY(-8px); box-shadow: 0 1.5rem 3rem rgba(0,0,0,.1) !important; filter: brightness(1.02); }
+        .bg-surface { background-color: #f8f9fa; }
+        .text-primary-accent { color: #002b61; }
+        .bg-primary-accent { background-color: #002b61; }
+        
+        .hero-gradient-overlay { background: radial-gradient(circle at 0% 0%, rgba(0, 43, 97, 0.08) 0%, transparent 50%); }
+        .cta-gradient { background: linear-gradient(135deg, #002b61 0%, #004494 100%); }
+        .ambient-bloom { box-shadow: 0 24px 48px -12px rgba(0, 43, 97, 0.15); }
+        
+        .team-img-wrapper { height: 350px; overflow: hidden; border-radius: 1.5rem; }
+        .team-img-wrapper img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; filter: grayscale(15%); }
+        .team-card:hover .team-img-wrapper img { transform: scale(1.05); filter: grayscale(0%); }
+    </style>
+</head>
+<body class="bg-surface text-dark" style="font-family: 'Work Sans', sans-serif;">
+    <!-- Topbar -->
+    <div class="topbar position-relative z-3">
+        <div class="container d-flex justify-content-between align-items-center py-2">
+            <div class="contact-info text-white">
+                <span class="me-4"><i class="fas fa-phone-alt me-2"></i>+0123 456 789</span>
+                
+            </div>
+            <div class="social-icons">
+                <span class="text-white"><i class="fas fa-envelope me-2 text-white"></i>info@domain.com</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top py-3 shadow-sm z-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <!-- Logo Icon -->
+                <div class="logo-icon me-2 position-relative">
+                    <img src="assets/images/img_001.svg"
+                        width="45" height="45" alt="Logo">
+                </div>
+                <div>
+                    <span class="fw-bold fs-6 fs-md-4 d-block lh-1 text-dark">Insurance Package Network</span>
+                    <span class="fs-6 logo-subtitle">Insurance Agency</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto fw-medium">
+                    <li class="nav-item px-2"><a class="nav-link text-secondary hover-primary transition-all" href="index.html">Home</a></li>
+                    <li class="nav-item px-2 border-bottom border-primary border-2"><a class="nav-link text-primary-accent fw-bold" href="about-us.html">About us</a></li>
+                    <li class="nav-item px-2"><a class="nav-link text-secondary hover-primary transition-all" href="services.html">Insurance</a></li>
+                  
+                    <li class="nav-item px-2"><a class="nav-link text-secondary hover-primary transition-all" href="contact-us.html">Contact Us</a></li>
+                </ul>
+                <a href="tel:+0123456789" class="btn btn-primary btn-custom px-4 py-2 fw-medium">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="position-relative py-5 overflow-hidden border-bottom border-light">
+        <div class="hero-gradient-overlay position-absolute w-100 h-100 top-0 start-0 z-0"></div>
+        <div class="container py-lg-5 position-relative z-1 mb-md-5 mt-md-4">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <span class="small fw-bold text-primary-accent text-uppercase d-block mb-4" style="letter-spacing: 2px;">// ABOUT OUR BROKERAGE //</span>
+                    <h1 class="display-3 fw-bolder text-dark mb-4 lh-sm" style="font-family: 'Manrope', sans-serif; letter-spacing: -1.5px;">
+                        Reliable <span class="text-primary">Insurance</span> for Every Step of Life
+                    </h1>
+                    <p class="fs-5 text-secondary mb-5 lh-lg" style="max-width: 500px;">
+                        Insurance Package Network is a proudly independently owned and operated insurance brokerage. We specialize in tailoring comprehensive auto, home, and commercial policies to bring absolute financial protection directly to your doorstep.
+                    </p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <button class="btn btn-primary bg-primary-accent border-0 btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm hover-scale">Meet Our Brokers</button>
+                    </div>
+                </div>
+                <!-- Interactive Image Layout -->
+                <div class="col-lg-6 position-relative ps-lg-5">
+                    <div class="position-absolute bg-primary rounded-circle blur-3xl opacity-10" style="width: 350px; height: 350px; top: -50px; left: 0px; filter: blur(60px);"></div>
+                    <div class="position-relative z-1 rounded-5 overflow-hidden ambient-bloom border border-4 border-white shadow-lg" style="border-radius: 2rem !important; height: 500px;">
+                        <img src="assets/images/img_002.jpg" alt="Insurance Package Network insurance consultations" class="w-100 h-100 object-fit-cover hover-scale" style="transition: transform 0.8s ease;">
+                    </div>
+                    <!-- Glass Badge -->
+                    <div class="position-absolute glass-effect p-4 rounded-4 shadow-lg z-2" style="max-width: 250px; bottom: -30px; right: 0;">
+                        <div class="d-flex align-items-center gap-3 mb-2">
+                            <span class="material-symbols-outlined text-primary fs-3" style="font-variation-settings: 'FILL' 1;">assured_workload</span>
+                            <span class="fw-bolder text-dark fs-6" style="font-family: 'Manrope', sans-serif;">Licensed Agents</span>
+                        </div>
+                        <p class="text-secondary small mb-0 lh-base fw-medium">Writing reliable policies across all major regions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mission & Vision Bento Wall -->
+    <section class="py-5" style="background-color: #f3f4f5;">
+        <div class="container py-lg-5">
+            <div class="text-center mb-5 pb-4">
+                <span class="small fw-bold tracking-widest text-primary text-uppercase mb-3 d-block" style="letter-spacing: 2px;">// OUR COMMITMENT //</span>
+                <h2 class="display-5 fw-black text-dark mb-4" style="font-family: 'Manrope', sans-serif; letter-spacing: -1px;">Driven by Protection Values</h2>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Large Wide Mission -->
+                <div class="col-md-8">
+                    <div class="bg-white p-5 rounded-4 h-100 d-flex flex-column bento-hover shadow-sm border border-light">
+                        <div class="d-flex justify-content-between align-items-start mb-5">
+                            <span class="material-symbols-outlined display-4 text-primary" style="font-variation-settings: 'FILL' 1;">shield</span>
+                            <span class="fw-bolder text-muted opacity-25 fs-5">MISSION</span>
+                        </div>
+                        <h3 class="display-6 fw-bolder mb-4 text-dark fs-2 lh-sm" style="font-family: 'Manrope', sans-serif;">Accessible & Affordable Insurance</h3>
+                        <p class="fs-5 text-secondary lh-lg mb-5" style="max-width: 600px;">We believe finding the right insurance coverage shouldn't be complicated. Our straightforward mission is to simply be the best broker advocating for you. Whether you need comprehensive collision auto coverage, umbrella home insurance, or complex commercial liability, our agents negotiate with top carriers to get you maximum protection at the absolute lowest premiums.</p>
+                    </div>
+                </div>
+
+                <!-- Vision Square -->
+                <div class="col-md-4">
+                    <div class="p-5 rounded-4 h-100 d-flex flex-column text-white bento-hover shadow-sm border border-opacity-10" style="background-color: #004953;">
+                        <div class="d-flex justify-content-between align-items-start mb-4">
+                            <span class="material-symbols-outlined display-4 text-white" style="font-variation-settings: 'FILL' 1;">gpp_good</span>
+                            <span class="fw-bolder text-white opacity-50 fs-5">VISION</span>
+                        </div>
+                        <h3 class="fw-bolder mb-3 text-white fs-3" style="font-family: 'Manrope', sans-serif;">Our Insurance Vision</h3>
+                        <p class="text-white opacity-75 lh-base mb-4 small fw-medium">To uniquely be the definitive and most trusted independent insurance brokerage, explicitly actively protecting the physical assets, vehicles, and long-term futures of over 10 million distinct households.</p>
+                        <div class="mt-auto overflow-hidden rounded-4 mt-3" style="height: 140px;">
+                            <img src="assets/images/img_003.jpg" alt="Mountain summit vision" class="w-100 h-100 object-fit-cover img-hover">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 100% Secure Block -->
+                <div class="col-md-4">
+                    <div class="p-5 rounded-4 h-100 d-flex flex-column bento-hover shadow-sm bg-white border border-light">
+                        <div class="d-flex justify-content-between align-items-start mb-5">
+                            <span class="material-symbols-outlined display-4 text-primary">policy</span>
+                        </div>
+                        <div>
+                            <h3 class="fw-bolder mb-4 text-dark fs-3" style="font-family: 'Manrope', sans-serif;">100% Secure Policy Management</h3>
+                            <p class="text-secondary lh-base fw-medium">Your highly sensitive personal data and underwriting information is seamlessly locked behind military-grade encryption. We securely protect your policy records as fiercely as we protect your actual home and business.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 Years Block -->
+                <div class="col-md-8">
+                    <div class="bg-transparent border border-2 p-5 rounded-4 h-100 d-flex align-items-center gap-5 bento-hover" style="border-color: #e1e3e4 !important;">
+                        <div class="d-none d-md-flex align-items-center justify-content-center rounded-circle flex-shrink-0" style="width: 140px; height: 140px; background-color: rgba(0,43,97,0.05);">
+                            <span class="material-symbols-outlined text-primary" style="font-size: 4rem;">workspace_premium</span>
+                        </div>
+                        <div>
+                            <h3 class="fw-bolder mb-3 text-dark fs-3" style="font-family: 'Manrope', sans-serif;">5 Years of Brokerage Excellence</h3>
+                            <p class="text-secondary lh-lg mb-0 fw-medium">From our massively humble beginnings writing standard auto policies half a decade ago, we've carefully maintained an immaculate track record of hands-on claims assistance and an industry-leading 98% policy renewal rate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- By The Numbers / Impact -->
+    <section class="py-5 bg-white">
+        <div class="container py-lg-5">
+            <div class="row g-4 text-center">
+                <div class="col-md-3 col-6">
+                    <h2 class="display-3 fw-black text-primary-accent mb-2" style="font-family: 'Manrope', sans-serif;">3M+</h2>
+                    <p class="fw-bold text-secondary text-uppercase small" style="letter-spacing: 1px;">Insurance Quotes Delivered</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-3 fw-black text-primary mb-2" style="font-family: 'Manrope', sans-serif;">6</h2>
+                    <p class="fw-bold text-secondary text-uppercase small" style="letter-spacing: 1px;">Dedicated Coverage Divisions</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-3 fw-black text-primary-accent mb-2" style="font-family: 'Manrope', sans-serif;">24/7</h2>
+                    <p class="fw-bold text-secondary text-uppercase small" style="letter-spacing: 1px;">Advisory & Claims Support</p>
+                </div>
+                <div class="col-md-3 col-6">
+                    <h2 class="display-3 fw-black text-primary mb-2" style="font-family: 'Manrope', sans-serif;">3X</h2>
+                    <p class="fw-bold text-secondary text-uppercase small" style="letter-spacing: 1px;">Faster Claims Resolutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="py-5 position-relative overflow-hidden" style="background-color: #e6f0ff;">
+        <div class="container py-lg-5 position-relative z-1 my-md-4">
+            <div class="text-center mb-5 pb-4">
+                <span class="small fw-bold tracking-widest text-primary text-uppercase mb-3 d-block" style="letter-spacing: 2px;">// OUR ADVISORS //</span>
+                <h2 class="display-5 fw-black text-dark mb-4" style="font-family: 'Manrope', sans-serif; letter-spacing: -1.5px;">The Architects of Trust</h2>
+            </div>
+            
+            <div class="row g-5">
+                <!-- Team Member 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 bg-transparent team-card text-center bento-hover">
+                        <div class="team-img-wrapper mb-4 shadow-sm border border-4 border-white">
+                            <img src="assets/images/img_004.jpg" alt="Jonathan CEO">
+                        </div>
+                        <h4 class="fw-bold text-dark mb-1 fs-5">Jonathan Reynolds</h4>
+                        <p class="text-primary fw-medium small text-uppercase mb-3" style="letter-spacing: 1px;">Principal Broker</p>
+                        <p class="text-secondary small lh-lg px-3">20+ years steering massively complex commercial liability policies in the North American insurance landscape.</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 bg-transparent team-card text-center bento-hover pt-lg-5">
+                        <div class="team-img-wrapper mb-4 shadow-sm border border-4 border-white">
+                            <img src="assets/images/img_005.jpg" alt="Sarah COO">
+                        </div>
+                        <h4 class="fw-bold text-dark mb-1 fs-5">Sarah Tremblay</h4>
+                        <p class="text-primary fw-medium small text-uppercase mb-3" style="letter-spacing: 1px;">Head of Claims Operations</p>
+                        <p class="text-secondary small lh-lg px-3">Aggressively ensuring our unique promise of 3X faster, entirely zero-hassle digital settlement payouts.</p>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+                    <div class="card border-0 bg-transparent team-card text-center bento-hover">
+                        <div class="team-img-wrapper mb-4 shadow-sm border border-4 border-white">
+                            <img src="assets/images/img_006.jpg" alt="Marcus CTO">
+                        </div>
+                        <h4 class="fw-bold text-dark mb-1 fs-5">Marcus Vance</h4>
+                        <p class="text-primary fw-medium small text-uppercase mb-3" style="letter-spacing: 1px;">Lead Underwriting VP</p>
+                        <p class="text-secondary small lh-lg px-3">Pioneers our highly-tailored auto and property risk modeling, finding you the lowest premiums legally possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section (Like index) -->
+    <section class="cta-section position-relative overflow-hidden bg-white py-5">
+        <div class="floating-elements position-absolute top-0 start-0 w-100 h-100 z-0 opacity-75">
+            <span class="position-absolute rounded-circle float-dot" style="width: 30px; height: 30px; background-color: #ff8c42; top: 45%; left: 8%; animation: float 6s infinite ease-in-out;"></span>
+            <span class="position-absolute rounded-circle float-dot" style="width: 40px; height: 40px; background-color: #002b61; top: 30%; right: 22%; animation: float 5s infinite ease-in-out reverse;"></span>
+        </div>
+
+        <div class="container position-relative z-1 py-5 text-center mt-3" style="max-width: 850px;">
+            <h6 class="text-primary fw-bold text-uppercase mb-3" style="letter-spacing: 1px; font-size: 0.85rem;">You're in good hands</h6>
+            <h2 class="display-6 fw-bold text-dark mb-5 lh-sm px-md-4" style="letter-spacing: -0.5px;">Join over 3,000,000 households who reliably received coverage with us</h2>
+            
+            <div class="input-group input-group-lg mb-4 shadow-sm mx-auto cta-input-group" style="max-width: 650px;">
+                <input type="text" class="form-control border-light bg-light px-4 fs-6" placeholder="Enter your email for an instant quote" aria-label="Email address">
+                <button class="btn btn-primary fw-bold text-uppercase px-4 px-md-5 fs-6 d-flex align-items-center justify-content-center" type="button">
+                    <i class="fas fa-shield-alt me-2"></i> Compare Quotes
+                </button>
+            </div>
+            
+            <p class="mb-3 fw-medium text-secondary">Find out how affordable vastly personalized auto and home protection can be in exactly 5 minutes.</p>
+            <p class="small text-secondary mb-5 pb-4">Before you strictly start, please reliably review our <a href="#" class="text-primary text-decoration-none fw-medium">Privacy Policy</a> and <a href="#" class="text-primary text-decoration-none fw-medium">Terms of Use</a>.</p>
+            
+            <div class="mt-5 pt-3">
+                <p class="small text-dark fw-bold mb-0">Independently owned and operated brokerage. Serving all major regions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="pt-5 pb-4 mt-auto" style="background-color: #080d1f; color: #a0aec0; font-family: 'Work Sans', sans-serif;">
+        <div class="container pt-4">
+            <div class="row g-5 mb-5">
+                <!-- Brand Info -->
+                <div class="col-lg-4 pe-lg-5">
+                    <a class="d-flex align-items-center mb-4 text-decoration-none" href="index.html">
+                        <div class="logo-icon me-2 position-relative">
+                            <img src="assets/images/img_001.svg" width="40" height="40" alt="Logo" style="filter: brightness(0) invert(1);">
+                        </div>
+                        <div>
+                            <span class="fw-bold fs-6 fs-md-4 d-block lh-1 text-white" style="font-family: 'Manrope', sans-serif;">Insurance Package Network</span>
+                        
+                        </div>
+                    </a>
+                    <p class="mb-4 lh-lg" style="font-size: 0.95rem;">Empowering households and enterprises with brutally effective, comprehensively priced insurance portfolios since 1998.</p>
+                    
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="text-white fw-bold mb-4" style="font-family: 'Manrope', sans-serif;">Quick Links</h5>
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3" style="font-size: 0.95rem;">
+                        <li><a href="index.html" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Home</a></li>
+                        <li><a href="about-us.html" class="text-decoration-none text-white opacity-75 hover-primary transition-all">About Us</a></li>
+                        <li><a href="services.html" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Insurance Services</a></li>
+                  
+                        <li><a href="contact-us.html" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="text-white fw-bold mb-4" style="font-family: 'Manrope', sans-serif;">Our Coverage</h5>
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3" style="font-size: 0.95rem;">
+                        <li><a href="services.html#vehicle" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Vehicle Insurance</a></li>
+                        <li><a href="services.html#home" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Home Insurance</a></li>
+                        <li><a href="services.html#tenant" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Tenant Insurance</a></li>
+                        <li><a href="services.html#property" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Property Insurance</a></li>
+                        <li><a href="services.html#business" class="text-decoration-none text-white opacity-75 hover-primary transition-all">Commercial Business</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="text-white fw-bold mb-4" style="font-family: 'Manrope', sans-serif;">24/7 Support</h5>
+                    <ul class="list-unstyled mb-0 d-flex flex-column gap-3" style="font-size: 0.95rem;">
+                        <li class="d-flex align-items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-primary mt-1"></i>
+                            <span class="text-white opacity-75">4421 Broadway Industrial Park<br>Apt 821 Detroit 99045</span>
+                        </li>
+                        <li class="d-flex align-items-center gap-3">
+                            <i class="fas fa-phone-alt text-primary"></i>
+                            <a href="tel:+18001234567" class="text-decoration-none text-white opacity-75 hover-primary transition-all">+1 (800) 123-4567</a>
+                        </li>
+                        <li class="d-flex align-items-center gap-3">
+                            <i class="fas fa-envelope text-primary"></i>
+                            <a href="mailto:quotes@insurancepackagenetwork.com" class="text-decoration-none text-white opacity-75 hover-primary transition-all">quotes@insurancepackagenetwork.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-top border-white border-opacity-10 pt-4 d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <p class="mb-0 text-white opacity-50 small">&copy; 2026 Insurance Package Network. All rights legally reserved.</p>
+                <div class="d-flex gap-4 small">
+                    <a href="privacy-policy.html" class="text-decoration-none text-white opacity-50 hover-primary transition-all">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="text-decoration-none text-white opacity-50 hover-primary transition-all">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

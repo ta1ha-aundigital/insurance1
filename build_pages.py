@@ -5,7 +5,7 @@ template = """<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TITLE_VAR - ZORVIXA Insurance Agency</title>
+    <title>TITLE_VAR - Insurance Package Network</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
@@ -34,7 +34,7 @@ template = """<!DOCTYPE html>
                     <img src="https://api.iconify.design/fluent:people-community-24-filled.svg?color=%23002b61" width="45" height="45" alt="Logo">
                 </div>
                 <div>
-                    <span class="fw-bold fs-4 d-block lh-1 text-dark">ZORVIXA</span>
+                    <span class="fw-bold fs-4 d-block lh-1 text-dark">Insurance Package Network</span>
                     <span class="fs-6 logo-subtitle">Insurance Agency</span>
                 </div>
             </a>
@@ -60,7 +60,7 @@ template = """<!DOCTYPE html>
     <section class="page-header py-5 position-relative bg-primary overflow-hidden">
        <div class="position-absolute top-0 start-0 w-100 h-100 z-0 bg-pattern-blue"></div>
        <div class="container py-5 mt-4 text-center position-relative z-1 text-white">
-           <span class="badge badge-custom px-4 py-2 mb-4 rounded-pill fw-medium fs-6 bg-white text-primary shadow-sm border border-light">Zorvixa Protection</span>
+           <span class="badge badge-custom px-4 py-2 mb-4 rounded-pill fw-medium fs-6 bg-white text-primary shadow-sm border border-light">Insurance Package Network Protection</span>
            <h1 class="display-4 fw-bold mb-3">TITLE_VAR</h1>
            <nav aria-label="breadcrumb">
                <ol class="breadcrumb justify-content-center mb-0 mt-3">
@@ -155,7 +155,7 @@ template = """<!DOCTYPE html>
             <p class="small text-secondary mb-5 pb-4 border-bottom border-light">Before you start, please review our <a href="#" class="text-primary text-decoration-none fw-medium">Privacy Policy</a> and <a href="#" class="text-primary text-decoration-none fw-medium">Terms of Use</a>.</p>
             
             <div class="mt-4">
-                <p class="small text-secondary mb-0">&copy; 2026 Zorvixa Insurance Agency. All Rights Reserved.</p>
+                <p class="small text-secondary mb-0">&copy; 2026 Insurance Package Network. All Rights Reserved.</p>
             </div>
         </div>
     </section>
@@ -171,7 +171,7 @@ pages = [
         "title": "Home Insurance",
         "img": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "desc1": "Your home is more than just a building; it's where your life happens. Our comprehensive Home Insurance plans are designed to protect your most valuable asset from unforeseen events such as severe weather, fires, theft, and vandalism. We offer flexible coverage limits that ensure your dwelling, personal belongings, and additional structures are completely secure.",
-        "desc2": "Besides covering physical damage, our policies include robust personal liability protection. This ensures that if someone is injured on your property, your legal and medical expenses are covered without draining your life savings. Sleep soundly knowing that your sanctuary is fully guarded by Zorvixa.",
+        "desc2": "Besides covering physical damage, our policies include robust personal liability protection. This ensures that if someone is injured on your property, your legal and medical expenses are covered without draining your life savings. Sleep soundly knowing that your sanctuary is fully guarded by Insurance Package Network.",
         "cov1": "Dwelling Protection against fire, wind, and hail",
         "cov2": "Personal Property Coverage for theft or damage",
         "cov3": "Liability Protection for visitor injuries",
@@ -193,7 +193,7 @@ pages = [
         "title": "Vehicle Insurance",
         "img": "https://images.unsplash.com/photo-1563720360172-67b8f3dce741?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "desc1": "Whether you commute daily or drive for pleasure, navigating the roads inherently carries risks. Our premier Vehicle Insurance policies are built to shield you from the financial fallout of collisions, theft, vandalism, and natural disasters. We work with you to dial in the exact coverage limits and deductibles that match your driving profile and budget.",
-        "desc2": "Beyond standard collision and comprehensive coverage, we offer premium additions like 24/7 roadside assistance, rental car reimbursement, and accident forgiveness. At Zorvixa, we believe deeply in rewarding safe drivers, offering massive discounts for clean records and bundled auto policies.",
+        "desc2": "Beyond standard collision and comprehensive coverage, we offer premium additions like 24/7 roadside assistance, rental car reimbursement, and accident forgiveness. At Insurance Package Network, we believe deeply in rewarding safe drivers, offering massive discounts for clean records and bundled auto policies.",
         "cov1": "Collision & Comprehensive physical damage coverage",
         "cov2": "Uninsured and Underinsured Motorist shielding",
         "cov3": "Medical Payments & Personal Injury Protection",
@@ -214,7 +214,7 @@ pages = [
         "filename": "business-insurance.html",
         "title": "Business Insurance",
         "img": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
-        "desc1": "Every successful enterprise needs a robust safety net. Business Insurance from Zorvixa encompasses a massive array of commercial protections, including general commercial liability, commercial property damage, and specialized professional liability (Errors and Omissions). We protect your life's work from litigation and total loss.",
+        "desc1": "Every successful enterprise needs a robust safety net. Business Insurance from Insurance Package Network encompasses a massive array of commercial protections, including general commercial liability, commercial property damage, and specialized professional liability (Errors and Omissions). We protect your life's work from litigation and total loss.",
         "desc2": "We also offer critical comprehensive policies like Worker's Compensation and Cyber Liability coverage, ensuring that both your employees and your digital assets are shielded from modern threats. Our expert commercial agents will perform a deep dive into your business model to build a bespoke risk mitigation fortress.",
         "cov1": "General Commercial Liability and Property Damage",
         "cov2": "Professional Liability (Errors & Omissions)",
@@ -226,7 +226,7 @@ pages = [
         "title": "Travel Insurance",
         "img": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "desc1": "Exploring the world should be exhilarating, not stressful. Travel Insurance offers absolute peace of mind by covering the massive unexpected costs of foreign emergency medical care, sudden trip cancellations, drastic flight delays, and totally lost luggage. We make sure a medical emergency abroad doesn't bankrupt you.",
-        "desc2": "Whether you are taking a quick weekend flight or embarking on a global multi-month expedition, Zorvixa offers tailored single-trip and annual multi-trip packages. You get 24/7 access to our global emergency hotline, connecting you instantly to doctors, translators, and logistical support anywhere on Earth.",
+        "desc2": "Whether you are taking a quick weekend flight or embarking on a global multi-month expedition, Insurance Package Network offers tailored single-trip and annual multi-trip packages. You get 24/7 access to our global emergency hotline, connecting you instantly to doctors, translators, and logistical support anywhere on Earth.",
         "cov1": "Emergency Medical Evacuation Healthcare",
         "cov2": "Trip Cancellation and Interruption reimbursement",
         "cov3": "Baggage Loss and Personal Item Replacement",
